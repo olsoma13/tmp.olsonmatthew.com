@@ -11,13 +11,13 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Matthew Olson: MarTech Leader',
+    template: '%s | Matthew Olson: MarTech Leader',
   },
-  description: 'This is my portfolio.',
+  description: 'Portfolio website for Matthew Olson of St. Paul, MN. Previous employers include Esko, MediaBeacon, Securian Financial, and Toppling Goliath Brewing Company.',
   openGraph: {
     title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    description: 'Portfolio website for Matthew Olson of St. Paul, MN. Previous employers include Esko, MediaBeacon, Securian Financial, and Toppling Goliath Brewing Company.',
     url: baseUrl,
     siteName: 'My Portfolio',
     locale: 'en_US',

@@ -20,3 +20,5 @@ export function GET(request: Request) {
     }
   )
 }
+
+export const runtime = 'edge';
